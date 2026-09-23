@@ -1,0 +1,14 @@
+{
+  "name": "ayaan1208 full-stack",
+  "install": "npm ci",
+  "terminals": [
+    {
+      "name": "api",
+      "command": "npm run dev:server"
+    },
+    {
+      "name": "web",
+      "command": "npm run dev:web"
+    }
+  ]
+}
