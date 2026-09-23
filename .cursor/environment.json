@@ -1,6 +1,6 @@
 {
   "name": "ayaan1208 full-stack",
-  "install": "npm ci",
+  "install": "npm ci && pip3 install --user -r finary/requirements.txt",
   "terminals": [
     {
       "name": "api",
