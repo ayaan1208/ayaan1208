@@ -1,42 +1,35 @@
-# ayaan1208
+### Hi, I'm **Ayan Pathan** 👋
 
-A minimal full-stack TypeScript demo app used to exercise a Cloud Agent development environment.
+Full-stack / AI builder. I ship products end-to-end — from client storefronts to personal automation agents.
 
-## Stack
+**📍 Canada** · Open to building useful tools around **cloud, AI workflows, and learning products**
 
-- **Frontend** (`web/`): Vite + React + TypeScript. Dev server on port `5173`, proxies `/api` to the backend.
-- **Backend** (`server/`): Express + TypeScript REST API with an in-memory Todo store. Listens on port `3001`.
-- npm workspaces tie the two packages together.
+---
 
-## Getting started
+### Currently building
 
-```bash
-npm ci            # install all workspace dependencies
-npm run dev       # start API (3001) and web (5173) together
-```
+- **[THE FINARY](https://github.com/ayaan1208/the-finary)** — personal daily commute newspaper: world + finance + AWS learning chain + practice drills, emailed as a PDF every morning  
+- Client work across e-commerce & product engineering
 
-Then open http://localhost:5173.
+### Featured projects
 
-## Useful scripts
+| Project | What it is |
+|---------|------------|
+| [THE FINARY](https://github.com/ayaan1208/the-finary) | Daily personalized briefing → learn → practice automation |
+| [SenseGrass ChatBot](https://github.com/ayaan1208/SenseGrass_ChatBot) | Text + image chatbot |
+| [GooglePayClone](https://github.com/ayaan1208/GooglePayClone) | Simplified payments flow (structure + error handling) |
+| [Store-and-Solve Algebraic Equation](https://github.com/ayaan1208/Store-and-Solve-Algebraic-Equation) | Spring Boot + postfix evaluation |
+| [toll-plaza-assignment](https://github.com/ayaan1208/toll-plaza-assignment) | Toll count between pins |
 
-| Command | Description |
-| --- | --- |
-| `npm run dev` | Run API + web dev servers concurrently |
-| `npm run dev:server` | Run only the Express API (port 3001) |
-| `npm run dev:web` | Run only the Vite dev server (port 5173) |
-| `npm run build` | Type-check + build both packages |
-| `npm run typecheck` | Type-check both packages |
+### Stack I use a lot
 
-## API
+`React` · `Node` · `Python` · `Spring Boot` · `AWS` · `Vercel` · `Flutter` · `SQL`
 
-| Method | Path | Description |
-| --- | --- | --- |
-| `GET` | `/api/health` | Liveness probe |
-| `GET` | `/api/todos` | List todos |
-| `POST` | `/api/todos` | Create a todo (`{ "title": string }`) |
-| `PATCH` | `/api/todos/:id` | Update `completed` / `title` |
-| `DELETE` | `/api/todos/:id` | Delete a todo |
+### Connect
 
-## Cloud Agent environment
+- LinkedIn: [ayan-khan-349562210](https://www.linkedin.com/in/ayan-khan-349562210)
+- Email: ayanpathan012@gmail.com
 
-`.cursor/environment.json` installs dependencies with `npm ci` and launches the API and web dev servers as named terminals.
+---
+
+⭐ Building in public when it helps others learn with me.

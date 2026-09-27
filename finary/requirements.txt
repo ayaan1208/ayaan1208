@@ -1,3 +1,0 @@
-# THE FINARY — PDF rendering toolchain (email uses only the Python stdlib).
-# WeasyPrint renders the newspaper HTML to a print-ready PDF.
-weasyprint>=60
